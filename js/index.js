@@ -11,8 +11,8 @@ console.clear();
 // --v-- write your code here --v--
 let title = "Ellbogen";
 let author = "Fatma Aydemir";
-let rating = "4.9";
-let numberOfSales = "1.000.000;
+let rating = "5.1";
+let numberOfSales = "1.000.000";
 // --^-- write your code here --^--
 
 /*
@@ -28,10 +28,12 @@ Then log all variables to the console again.
 */
 
 // --v-- write your code here --v--
-console.log("Title: "+ title);
-console.log("Author: "+ author);
-console.log("Rating: "+ rating);
-console.log("Number of Sales: "+ numberOfSales);
+// console.log("Title: "+ title);
+// console.log("Author: "+ author);
+// console.log("Rating: "+ rating);
+// console.log("Number of Sales: "+ numberOfSales);
+
+logBookData();
 // --^-- write your code here --^--
 
 /*
@@ -43,5 +45,10 @@ console.log("Number of Sales: "+ numberOfSales);
 */
 
 // --v-- write your code here --v--
-
+function logBookData(){
+console.log("Title: "+ title);
+console.log("Author: "+ author);
+console.log("Rating: "+ rating);
+console.log("Number of Sales: "+ numberOfSales);
+}
 // --^-- write your code here --^--
